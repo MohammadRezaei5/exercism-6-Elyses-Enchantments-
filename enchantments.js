@@ -48,3 +48,14 @@ function removeItemFromTop(cards) {
 }
 
 // console.log(removeItemFromTop([3, 2, 6, 4, 8]));
+
+///--------///
+
+// const newCard = 8;
+
+function insertItemAtBottom(cards, newCard) {
+  cards.unshift(newCard);
+  return cards;
+}
+
+// console.log(insertItemAtBottom([5, 9, 7, 1], newCard));
