@@ -28,3 +28,14 @@ function insertItemAtTop(cards, newCard) {
 }
 
 // console.log(insertItemAtTop([5, 9, 7, 1], newCard));
+
+///--------///
+
+// const position = 2;
+
+function removeItem(cards, position) {
+  cards.splice(position, 1);
+  return cards;
+}
+
+// console.log(removeItem([3, 2, 6, 4, 8], position));
