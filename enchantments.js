@@ -17,3 +17,14 @@ function setItem(cards, position, replacementCard) {
 }
 
 // console.log(setItem([1, 2, 4, 1], position, replacementCard));
+
+///--------///
+
+// const newCard = 8;
+
+function insertItemAtTop(cards, newCard) {
+  cards.push(newCard);
+  return cards;
+}
+
+// console.log(insertItemAtTop([5, 9, 7, 1], newCard));
