@@ -68,3 +68,13 @@ function removeItemAtBottom(cards) {
 }
 
 // console.log(removeItemAtBottom([8, 5, 9, 7, 1]));
+
+///--------///
+
+// const stackSize = 4;
+
+function checkSizeOfStack(cards, stackSize) {
+  return cards.length === stackSize ? true : false;
+}
+
+// console.log(checkSizeOfStack([3, 2, 6, 4, 8], stackSize));
