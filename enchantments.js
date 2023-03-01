@@ -59,3 +59,12 @@ function insertItemAtBottom(cards, newCard) {
 }
 
 // console.log(insertItemAtBottom([5, 9, 7, 1], newCard));
+
+///--------///
+
+function removeItemAtBottom(cards) {
+  cards.shift();
+  return cards;
+}
+
+// console.log(removeItemAtBottom([8, 5, 9, 7, 1]));
