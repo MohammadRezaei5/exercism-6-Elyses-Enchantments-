@@ -39,3 +39,12 @@ function removeItem(cards, position) {
 }
 
 // console.log(removeItem([3, 2, 6, 4, 8], position));
+
+///--------///
+
+function removeItemFromTop(cards) {
+  cards.pop();
+  return cards;
+}
+
+// console.log(removeItemFromTop([3, 2, 6, 4, 8]));
